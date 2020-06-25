@@ -24,7 +24,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.android.viewmodel.ext.android.viewModel
 
 private const val BOTTOM_SHEET_FRAGMENT_DIALOG_TAG = "74a54328-5d62-46bf-ab6b-cbf5fgt0-092395"
+
 private const val HISTORY_ACTIVITY_PATH = "geekbrains.ru.history.view.history.HistoryActivity"
+
 private const val HISTORY_ACTIVITY_FEATURE_NAME = "historyScreen"
 
 class MainActivity : BaseActivity<AppState, MainInteractor>() {
